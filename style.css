@@ -1745,7 +1745,7 @@ span.accor-open {
     height: 90px;
 }.hi301{
 
-    height: 90px;
+    height: 120px;
 }
 .slide-title{
 
@@ -1755,6 +1755,9 @@ span.accor-open {
 
 .d-block12{
     height: 700px;
+}
+.d-block13{
+    height: 550px;
 }
 @media only screen and (max-width: 600px) {
     .navbar-brand {max-width: 240px;}
@@ -1770,6 +1773,9 @@ span.accor-open {
     }
     .d-block12{
         height: 400px;
+    }
+    .d-block13{
+        height: 350px;
     }
     .imgblock1{ 
          
@@ -1805,6 +1811,9 @@ span.accor-open {
     .d-block12{
         height: 500px;
     }
+    .d-block13{
+        height: 400px;
+    }
   } 
 
   /* Large devices (laptops/desktops, 992px and up) */
@@ -1816,6 +1825,9 @@ span.accor-open {
         
     }.d-block12{
         height: 550px;
+    }
+    .d-block13{
+        height: 450px;
     }
   } 
   
@@ -1829,6 +1841,9 @@ span.accor-open {
     }
     .d-block12{
         height: 650px;
+    }
+    .d-block13{
+        height: 500px;
     }
   }
 
@@ -2048,4 +2063,29 @@ top: -15px;
 .single_gallery_item:hover .gallery-hover-overlay1 {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.carousel-control-next-icon{
+
+
+    padding: 7px 7px 7px 7px;
+    background-color: brown;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+     background-size: 20px;
+     
+}
+.carousel-control-prev-icon{
+    padding: 7px 7px 7px 7px;
+    background-color: brown;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+     background-size: 20px;
 }
