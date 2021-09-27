@@ -1136,7 +1136,7 @@ span.accor-open {
     margin: 0 auto 50px;
     position: relative;
     z-index: 1;
-    border: 7px solid whitesmoke;
+    border: 7px solid rgb(165,42,42,0.75);
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -1148,7 +1148,7 @@ span.accor-open {
     left: 0;
     top: 0;
     content: "";
-    background-color: rgba(74, 122, 236, 0.75);
+    background-color: rgb(165,42,42,0.75);
     z-index: 2;
     border-radius: 50%;
     opacity: 0;
@@ -1737,11 +1737,24 @@ span.accor-open {
 ============= The End =============
 ============= Custom css =============
 ---------------------------------*/
+.imgblock1{ 
+    width: 100%;
+    height: 250px;
+}.hi30{
 
+    height: 90px;
+}.hi301{
+
+    height: 90px;
+}
 .slide-title{
 
     font-size: 30px;
     color: #fff;
+}
+
+.d-block12{
+    height: 700px;
 }
 @media only screen and (max-width: 600px) {
     .navbar-brand {max-width: 240px;}
@@ -1754,6 +1767,20 @@ span.accor-open {
     .slide{
 
         width: 95%;
+    }
+    .d-block12{
+        height: 400px;
+    }
+    .imgblock1{ 
+         
+        height: 45px;
+         
+    }.gallery-hover-overlay1{
+
+        height: 45px;
+    }.hi301{
+
+        height: 30px;
     }
     /* .section_padding_100 {
         padding-top: 50px;
@@ -1775,6 +1802,9 @@ span.accor-open {
 
         width: 90%;
     }
+    .d-block12{
+        height: 500px;
+    }
   } 
 
   /* Large devices (laptops/desktops, 992px and up) */
@@ -1783,6 +1813,9 @@ span.accor-open {
     .slide{
 
         width: 80%;
+        
+    }.d-block12{
+        height: 550px;
     }
   } 
   
@@ -1792,6 +1825,10 @@ span.accor-open {
     .slide{
 
         width: 80%;
+        
+    }
+    .d-block12{
+        height: 650px;
     }
   }
 
@@ -1942,4 +1979,73 @@ top: -15px;
     align-items: center;
      text-align: center;
    
+}
+
+.brown-bg{
+     
+    padding: 12px;
+    background-color: rgb(255,235,205,0.4);
+    border-radius: 12px;
+    ;
+}
+
+.blue-bg{
+    padding: 12px;
+    background-color: rgb(56,179,208,0.6);
+    border-radius: 12px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: brown;
+    border-radius: 120px;
+}
+.port-img{
+  width: 400px; height: 250px
+}
+
+.w100{
+    width: 100%; 
+}
+
+.no-space{
+        padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+     margin-left: 0px;
+}
+
+.imgblock{
+    width: 400px;
+    height: 250px;
+}
+.single_gallery_item1{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    z-index: 3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+
+.gallery-hover-overlay1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    /* background-color: rgba(74, 122, 236, 0.85); */
+    background-color: transparent;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single_gallery_item:hover .gallery-hover-overlay1 {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 }
