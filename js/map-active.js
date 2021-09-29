@@ -37,7 +37,7 @@ var address = 'New york';
 new google.maps.Marker({
     position: latlng,
     map,
-    title: "F-35,sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India",
+    title: "F-30, Sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India",
   })
 
 
@@ -47,7 +47,7 @@ new google.maps.Marker({
     "</div>" +
     '<h4 id="firstHeading"  >Rutarth Education</h4>' +
     '<div id="bodyContent">' +
-    "<p><b>Uluru</b>,F-35,sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India</p>" +
+    "<p><b>Uluru</b>,F-30, Sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India</p>" +
     "</div>" +
     "</div>";
 
