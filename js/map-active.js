@@ -1,5 +1,5 @@
 var map;
-var latlng = new google.maps.LatLng(21.1719779,72.7897699);
+var latlng = new google.maps.LatLng(21.214969461730075, 72.86109643554877);
 var stylez = [{
     featureType: "all",
     elementType: "all",
@@ -47,7 +47,7 @@ new google.maps.Marker({
     "</div>" +
     '<h4 id="firstHeading"  >Rutarth Education</h4>' +
     '<div id="bodyContent">' +
-    "<p><b>Uluru</b>,F-30, Sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India</p>" +
+    "<p><b></b>F-30, Sargam shopping center, Hirabaugh, Varachha Road,Surat,GJ,India</p>" +
     "</div>" +
     "</div>";
 
