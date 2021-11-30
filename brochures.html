@@ -24,6 +24,24 @@
         .carousel-caption  {
             font-size: 28px;
         }
+        .container {
+                        display: flex;
+                    }
+
+                    .container__column {
+                        flex: 1;
+                        /* Space between columns */
+                        margin: 5px 8px;
+
+                        /* Layout each column */
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .container__content {
+                        /* Take available height */
+                        flex: 1;
+                    }
     </style>
 
 </head>
@@ -90,20 +108,37 @@
 
    <section class=" clearfix " id="home"  style="padding-top: 120px;">
 
-        <center>
-            <H3 style="color:rgb(178, 17, 24);">ADDMISSION PROCEDURE</H3>
-            <a href="addmission_procedure.pdf" download rel="noopener noreferrer" target="_blank">
-                <img src="pdf2.png" height="100px" width="250px">
-            </a>
-        </center>
-        <br></br>
-
-        <center>
-            <H3 style="color:rgb(178, 17, 24);">BROCHURES OF AMA SCHOOL OF MEDICINE</H3>
-            <a href="ama_school_of_medicine.pdf" download rel="noopener noreferrer" target="_blank">
-                <img src="pdf1.png" height="100px" width="250px">
-            </a>
-        </center>
+       <div class="container">
+            <!-- Column -->
+            <div class="container__column">
+                <!-- Cover -->
+                <a href="pdf2.pdf" download>
+                <img src="pdf2.png" style="height: 650px;">
+                    </a>
+                
+                <div class="container__content">
+                   
+                </div>
+        
+                <!-- Button sticks to the bottom -->
+                <center><h3 style="color: rgb(178, 17, 24);">ADDMISSION PROCEDURE </h3><center>
+            </div>
+        
+            <!-- Repeat with other columns -->
+            <div class="container__column">
+                <!-- Cover -->
+                <a href="pdf2.pdf" download>
+                <img src="pdf1.png" style="height: 650px;">
+        </a>
+                
+                <div class="container__content">
+                    
+                </div>
+                
+                <!-- Button sticks to the bottom -->
+                <center><h3 style="color: rgb(178, 17, 24);">BROCHURES OF AMA SCHOOL OF MEDICINE</h3><center>
+            </div>
+        </div>
 
         
        </section>
